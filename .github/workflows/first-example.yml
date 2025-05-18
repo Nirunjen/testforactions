@@ -1,17 +1,1 @@
-name: My First Workflow
-on:
-  push
-    branches:
-        - main
- # schedule:
-  #  - cron: '0 0 * * *' # Runs every day at midnight UTC
-jobs:
-  first-job:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Welcome Message
-        run: echo "First Welcome Message"
-      - name: List files
-        run: ls
-      - name: Read FILes
-        run: cat ReadMe.md    
+
