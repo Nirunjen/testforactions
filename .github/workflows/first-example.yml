@@ -3,6 +3,8 @@ on:
   push
   schedule:
     - cron: '0 0 * * *' # Runs every day at midnight UTC
+    branches:
+        - main
 jobs:
   first-job:
     runs-on: ubuntu-latest
