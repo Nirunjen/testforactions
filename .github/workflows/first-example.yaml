@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Welcome Message
         run: echo "First Welcome Message"
+      - name: Check out repository code
+        uses: actions/checkout@v4
       - name: List files
         run: ls
       - name: Read FILes
