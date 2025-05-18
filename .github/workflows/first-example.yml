@@ -1,9 +1,9 @@
 name: My First Workflow
 on:
   push
-  schedule:
-    - cron: '0 0 * * *' # Runs every day at midnight UTC
-    branches:
+ # schedule:
+  #  - cron: '0 0 * * *' # Runs every day at midnight UTC
+  branches:
         - main
 jobs:
   first-job:
